@@ -1,0 +1,57 @@
+body {
+	font-family: Helvetica;
+	margin: 0px;
+	padding: 0px;
+	background: url("https://img.freepik.com/free-vector/white-3d-modern-background-design_53876-88246.jpg?size=626&ext=jpg");
+	background-size: cover; 
+}
+
+h1 {
+	font-size: 60px;
+	text-shadow: 3px 3px grey;
+}
+
+.centerRow {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.about {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.caption {
+	font-size: 10px;
+	font-weight: italic;
+}
+
+.list {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.content {
+	font-size: 20px;
+	margin-top: 20px;
+	width: 500px;
+	margin-bottom: 20px;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: top;
+	padding: 30px;
+	width: 500px;
+}
+
+.columnBorder {
+	border-left: 1px solid grey;
+}
+
+.text {
+	font-size: 20px;
+}
